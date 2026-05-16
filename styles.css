@@ -534,7 +534,7 @@ h1 span {
   margin: 0 auto 32px;
   height: 425px;
   overflow-x: hidden;
-  overflow-y: auto;
+  overflow-y: hidden;
   padding: 16px 24px;
   position: relative;
   width: min(100%, 1440px);

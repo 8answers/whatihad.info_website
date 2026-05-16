@@ -635,15 +635,6 @@ Cost: within budget ✅`;
         { passive: true }
       );
 
-      bellyoPrompt.addEventListener(
-        "wheel",
-        (event) => {
-          event.preventDefault();
-          inertialScrollBy(event.deltaY);
-        },
-        { passive: false }
-      );
-
       window.addEventListener(
         "wheel",
         (event) => {
