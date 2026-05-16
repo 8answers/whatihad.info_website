@@ -540,6 +540,8 @@ h1 span {
   width: min(100%, 1440px);
   z-index: 1;
   scrollbar-width: none;
+  touch-action: pan-y;
+  -webkit-overflow-scrolling: touch;
 }
 
 .bellyo-prompt::-webkit-scrollbar {

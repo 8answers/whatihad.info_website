@@ -665,28 +665,6 @@ Cost: within budget ✅`;
         { passive: true }
       );
 
-      let bellyoTouchY = null;
-      bellyoPrompt.addEventListener(
-        "touchstart",
-        (event) => {
-          bellyoTouchY = event.touches[0]?.clientY ?? null;
-        },
-        { passive: true }
-      );
-
-      bellyoPrompt.addEventListener(
-        "touchmove",
-        (event) => {
-          if (bellyoTouchY === null) return;
-          const nextY = event.touches[0]?.clientY ?? bellyoTouchY;
-          const deltaY = bellyoTouchY - nextY;
-          bellyoTouchY = nextY;
-          event.preventDefault();
-          inertialScrollBy(deltaY);
-        },
-        { passive: false }
-      );
-
       promptForm.addEventListener("submit", (event) => {
         event.preventDefault();
         typeResponse();
