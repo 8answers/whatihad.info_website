@@ -253,10 +253,10 @@ a {
 }
 
 .download-small {
-  font-size: 24px;
+  font-size: 22px;
   min-height: 50px;
   padding: 8px 24px;
-  width: 163px;
+  width: 240px;
   backdrop-filter: none;
   box-shadow: none;
 }
@@ -1071,7 +1071,7 @@ h1 span {
   font-size: 32px;
   height: 79px;
   padding: 8px 24px;
-  width: 266px;
+  width: 320px;
 }
 
 .how-progress {
@@ -2803,7 +2803,7 @@ h1 span {
   .download-final {
     font-size: 24px;
     height: 66px;
-    width: 224px;
+    width: 280px;
   }
 
   .download-logo-frame {

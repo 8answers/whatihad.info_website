@@ -9,6 +9,7 @@ mkdir -p "$publish_dir"
 cp -R \
   AI_terms \
   about \
+  app \
   assets \
   connect \
   privacy_policy \
